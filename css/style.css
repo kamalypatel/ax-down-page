@@ -1,42 +1,68 @@
-/* Box Model Hack */
-* {
-  box-sizing: border-box;
-}
-
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-	clear: both;
-}
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
-body {
-
-}
-
-
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+html {
+  font-size: 10px;
 }
 
-footer {
-
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  background-color: #283258;
+  font-family: 'Roboto', sans-serif;
+  padding: 5% 0 0 0;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+h1 {
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: lighter;
+}
+
+h2 {
+  color: #ABB3BE;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.botmarg {
+  margin-bottom: 0;
+}
+
+.mechanics {
+  width: 45%;
+  height: 45%;
+  margin-bottom: 0;
+}
+
+.logo {
+  width: 25%;
+  height: 25%;
+  margin-top: 1%;
+  margin-bottom: 0;
+}
+
+@media (min-width: 1px) and (max-width: 1100px) {
+  .mechanics {
+    width: 70%;
+    height: 70%;
+    margin-bottom: 0;
+  }
+  
+  .logo {
+    width: 40%;
+    height: 40%;
+    margin-top: 1%;
+    margin-bottom: 0;
+  }
+}
