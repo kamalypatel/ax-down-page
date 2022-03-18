@@ -68,6 +68,12 @@ h2 {
 }
 
 @media only screen and (max-width: 600px) {
+  .mechanics {
+    width: 90%;
+    height: 90%;
+    margin-bottom: 0;
+  }
+  
   .logo {
     width: 60%;
     height: 60%;
