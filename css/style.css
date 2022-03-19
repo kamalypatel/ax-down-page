@@ -11,7 +11,6 @@ body {
   justify-content: center;
   align-items: center;
   max-width: 100%;
-  background-color: #283258;
   font-family: 'Roboto', sans-serif;
   padding: 5% 0 0 0;
 }
@@ -69,7 +68,7 @@ h2 {
 
 @media only screen and (max-width: 600px) {
   .body {
-    padding: 0 5% 0 5%;
+    padding: 5% 5% 0 5%;
   }
   
   .mechanics {
